@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(80, 80, 80);
+}
+
+h1, h2 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+#inputDiv {
+  margin: 20px auto 0 auto;
+  width: 40%;
+  height: 25%;
+  background-color: rgb(45, 45, 45);
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+}
+
+#topBar {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: rgba(35, 35, 35, 0.493);
+}
+
+#toDoContainerDiv {
+  margin: 20px auto 0 auto;
+  width: 40%;
+  height: 25%;
+  background-color: rgb(45, 45, 45);
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+}
+
+ul {
+    list-style-type: none;
+    overflow-y: scroll;
+}
+
+#TaskPrefab, #taskBtn {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    display: block;
+}

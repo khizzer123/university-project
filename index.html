@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="index.js"></script>
+  <title>To-do list creator</title>
+  <h1>To-do list creator</h1>
+</head>
+<body>
+  <div id="inputDiv">
+    <div id="topBar">
+      <h2>CREATE TASKS</h2>
+    </div>
+    <form>
+      <div class="mb-3">
+        <label for="inputTaskLabel" class="form-label">Task name</label>
+        <input id="TaskNameBox" type="text" class="form-control" id="inputTask" aria-describedby="task"/>
+      </div>
+      <button type="button" class="btn btn-primary" id="submitBtn"; style = "margin: 10px; border-bottom-left-radius: 10px;">Add Task</button>
+      <button type="button" class="btn btn-danger" id="deleteBtn"; style = "margin: 10px;" hidden>Delete Task</button>
+      <button type="button" class="btn btn-danger" id="deleteAllBtn"; style = "margin: 10px;" hidden>Delete All Tasks</button>
+    </form>
+  </div>
+
+  <div id="toDoContainerDiv" hidden>
+    <div id="topBar">
+      <h2>CREATED TASKS</h2>
+    </div>
+      <ul>
+        <li id="taskList">
+          <button id="TaskPrefab" hidden>Task name</button>
+        </li>
+      </ul>
+  </div>
+</body>
+</html>
+
